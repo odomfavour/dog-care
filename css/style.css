@@ -7,6 +7,7 @@
 body {
   font-family: "Oswald", sans-serif;
 }
+
 /* * Register page */
 .flex-container {
   display: flex;
@@ -164,4 +165,36 @@ header {
   border: 1px solid chocolate;
   font-size: 16px;
   cursor: pointer;
+}
+/* * About section */
+.about-container {
+  display: flex;
+}
+.about-img-holder {
+  background: url("../images/dog-care.jpg") no-repeat top center/cover;
+  height: 80vh;
+  width: 50%;
+}
+.about-content {
+  background-color: rgba(210, 105, 30, 0.1);
+  width: 50%;
+}
+
+.about-content-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.about-content-holder h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.about-content-holder p {
+  font-size: 19px;
+  text-align: justify;
+  margin-top: 20px;
 }
