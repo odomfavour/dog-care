@@ -7,6 +7,7 @@
 body {
   font-family: "Oswald", sans-serif;
   background-color: rgba(210, 105, 30, 0.1);
+  font-size: 16px;
 }
 
 /* * Register page */
@@ -253,13 +254,12 @@ header {
   font-size: 20px;
   font-weight: bold;
 }
-
+/* footer section */
 footer {
   background: rgb(119, 53, 6);
   color: white;
   padding: 20px 0 0 0;
 }
-
 
 .top-section {
   display: flex;
@@ -267,13 +267,14 @@ footer {
   align-items: center;
 }
 
-#social-bracket, .social-icons {
+#social-bracket,
+.social-icons {
   display: flex;
   align-items: center;
 }
 
 #social-bracket {
-  gap: 15px;
+  gap: 10px;
 }
 
 .social-icons {
@@ -285,7 +286,18 @@ footer {
   padding: 6px 15px;
 }
 
+.social-icons li i {
+  font-size: 15px;
+}
 
+.social-icons li:hover {
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+.social-icons li i:hover {
+  color: chocolate;
+}
 footer .main-section {
   display: flex;
   justify-content: start;
@@ -294,10 +306,10 @@ footer .main-section {
 }
 
 footer .about-footer {
-  width: 50%;
+  width: 40%;
 }
 footer .links-footer {
-  width: 10%;
+  width: 15%;
 }
 footer .work-footer {
   width: 30%;
@@ -312,6 +324,11 @@ footer ul li * {
 
 footer ul li a:hover i {
   padding: 0 5px 0 10px;
+}
+
+footer ul li a i {
+  font-size: 13px;
+  padding-right: 6px;
 }
 
 footer ul a {
@@ -330,7 +347,7 @@ footer ul a {
   gap: 30px;
 }
 
-.bottom-section .left-section  img {
+.bottom-section .left-section img {
   margin-top: -80px;
 }
 
@@ -339,4 +356,3 @@ footer ul a {
   justify-content: space-between;
   align-items: center;
 }
-
